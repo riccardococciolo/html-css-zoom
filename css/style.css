@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --footer-height: 100px,
-}
-
 img {
     max-width: 100%;
     display: block;
@@ -52,4 +48,53 @@ body {
     padding: .2rem;
     background-color: rgba(0,0,0, .3);
     font-size: .5rem;
+}
+
+/* footer */
+footer {
+    height: var(--footer-height);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.section-flex {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.icon {
+    text-align: center;
+}
+
+.margin {
+    margin-left: .5rem;
+}
+
+h4 {
+    font-size: .7rem;
+    margin-top: .3rem;
+}
+
+.green {
+    color: green;
+}
+
+.end {
+    background-color: rgba(255, 255, 266, .2);
+    padding: 2rem;
+    color: red;
 }
